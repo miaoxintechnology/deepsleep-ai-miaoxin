@@ -16,6 +16,10 @@ DeepSleep 是一款**单文件网页版 AI 助手**，由 **喵芯科技（Miaox
 - 🤖 **智能体**：自定义 AI 助手（独立模型与系统提示词）、头像自定义（用户 / DeepSleep / 智能体，浅深各一套）
 - 📤 **轮次跳转**：输入 `#N` 快速定位对应轮次（对话 / 轨迹视图均支持）
 
+## 📥 下载
+
+- **Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.0A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.0.0)
+
 ## 🚀 使用
 
 1. 用浏览器打开 `deepsleep_26H2-13.0A(V20.0.0).HTML`
