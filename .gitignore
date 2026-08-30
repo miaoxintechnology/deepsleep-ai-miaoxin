@@ -1,0 +1,10 @@
+# 本地构建产物 / 调试
+*.log
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# 用户本地数据（浏览器 localStorage 不在此）
