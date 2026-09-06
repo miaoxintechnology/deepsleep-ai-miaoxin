@@ -18,8 +18,10 @@ DeepSleep 是一款**单文件网页版 AI 助手**，由 **喵芯科技（Miaox
 
 ## 📥 下载
 
+- **V20.1.0 Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.1A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.1.0) — 最新版，免安装、双击即用
 - **V20.1.0 源文件**：`deepsleep_26H2-13.1A(V20.1.0).HTML`（本仓库内，也可通过 [Releases · v20.1.0](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.1.0) 下载）
-- **V20.0.0 Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.0A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.0.0)
+- **V20.0.0 Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.0A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.0.0) — 旧版
+- **V20.0.0 源文件**：`deepsleep_26H2-13.0A(V20.0.0).HTML`（本仓库内）
 
 ## 🚀 使用
 
