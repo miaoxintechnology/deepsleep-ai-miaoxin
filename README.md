@@ -5,8 +5,8 @@ DeepSleep 是一款**单文件网页版 AI 助手**，由 **喵芯科技（Miaox
 ## ✨ 特性
 
 - 🎨 **SVG 画图**：当请求画图/绘制时，AI 以「前后缀包裹的完整 SVG」输出，对话页自动渲染为图片；每条消息支持多张图片，每张图带「📥 下载」按钮（JPEG）；思维链中的 SVG 同样按标准格式渲染
-- 🎛 **对话 / 轨迹 双视图**：轨迹台账以 DSH 风格事件行（USER / IMAGE / ASSISTANT / THINK / SYSTEM / CONTEXT）实时同步，支持搜索、折叠与轮次跳转
-- 🧠 **每轮真实 SYSTEM / CONTEXT**：轨迹记录每轮实际注入的系统提示词与传入模型的完整上下文（HTTP 请求 messages），随消息持久化到本地存储，重新打开仍可见
+- 🎛 **对话 / 轨迹 双视图**：轨迹台账以 DSH 风格事件行（用户 / 图片 / 思考 / 记忆 / 助手，标签跟随 11 语言）实时同步，支持搜索、折叠与轮次跳转；时序图新增记忆泳道
+- 🧠 **轨迹记忆优化（SVG 渲染范围）**：轨迹行仅显示每轮传入的用户记忆（MEMORY），移除完整系统提示词与上下文的本地存储，大幅降低 localStorage 占用；SVG 图片仅限对话（正文/思维链）渲染，轨迹、标题、记忆管理等纯文本内容出现 SVG 时仅显示代码
 - 🧠 **记忆系统**：支持保存 / 修改 / 删除记忆（更新/修改/删除前缀规约），UI 隐藏原文、显示生成状态提示，「查看纯文本」可见原文
 - 🔍 **OCR 三选一**：本地 Tesseract（不消耗 API）/ 云端 OCR.space（免费）/ 识图模型 `deepseek-v4-flash-vision-exp`（计入 token 与费用消耗）
 - 👁 **识图模式**：官方图像理解模型 `deepseek-v4-flash-vision-exp`，图片按官方多模态规范（`image_url` + `detail="original"`）直传，不压缩、不丢细节
@@ -18,11 +18,12 @@ DeepSleep 是一款**单文件网页版 AI 助手**，由 **喵芯科技（Miaox
 
 ## 📥 下载
 
-- **Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.0A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.0.0)
+- **V20.1.0 源文件**：`deepsleep_26H2-13.1A(V20.1.0).HTML`（本仓库内，也可通过 [Releases · v20.1.0](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.1.0) 下载）
+- **V20.0.0 Windows 便携版（exe）**：[下载 DeepSleep-26H2-13.0A-portable.exe](https://github.com/miaoxintechnology/deepsleep-ai-miaoxin/releases/tag/v20.0.0)
 
 ## 🚀 使用
 
-1. 用浏览器打开 `deepsleep_26H2-13.0A(V20.0.0).HTML`
+1. 用浏览器打开 `deepsleep_26H2-13.1A(V20.1.0).HTML`
 2. 在设置中填入 DeepSeek API Key
 3. 即可对话；选择模式（快速 / 专家 / 识图）、开启深度思考等
 
@@ -30,8 +31,8 @@ DeepSleep 是一款**单文件网页版 AI 助手**，由 **喵芯科技（Miaox
 
 ## 📄 文档
 
-- 版本：**26H2-13.0A (V20.0.0)** — 正式版
-- 关于 / 教程 / 更新日志 / 免责声明详见应用内底部链接（11 语言），或在线 API 文档 `DeepSleep_Docs_V20.0.0.html`
+- 版本：**26H2-13.1A (V20.1.0)** — 正式版
+- 关于 / 教程 / 更新日志 / 免责声明详见应用内底部链接（11 语言）
 - 内置 **DeepSeek API 费用统计** 移植自 [dsh-deepseek-cost](https://github.com/)（MIT License，版权归喵芯科技）
 
 ## 📜 许可
